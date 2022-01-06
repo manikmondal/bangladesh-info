@@ -1,22 +1,79 @@
-
-.div1{
-    background-color: red;
-    width: 200px;
-    height: 200px;
+body {
+    margin: 0;
+    padding: 0;
 }
-.div2{
-    background-color: rgb(25, 0, 255);
-    width: 200px;
-    height: 200px;
+.title {
+    color: green;
 }
-.div3{
-    background-color: rgb(217, 255, 0);
-    width: 200px;
-    height: 200px;
-}
-.parent{
+.parent {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    border: 3px solid red;
+    width: 80%;
+    margin: 0 auto;
+}
+.photo img {
+    width: 300px;
 
+}
+.details-btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,green,red,green);
+}
+.details-btn:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.second-section {
+    text-align: center;
+    margin: 50px;
+}
+.dhaka {
+    width: 250px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 12px green;
+    border-radius: 5px;
+}
+.div-img img {
+    width: 100%;
+}
+.barishal {
+    width: 250px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 12px green;
+    border-radius: 5px;
+}
+.div-img img {
+    width: 100%;
+}
+.khulna {
+    width: 250px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 12px green;
+    border-radius: 5px;
+}
+.div-img img {
+    width: 100%;
+}
+.all-divisions {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.buttom-section {
+    padding: 15px;
+}
+
+.details {
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    transition: .8s;
+}
+.details:hover {
+    background-color: blue;
+    color: white;
 }
